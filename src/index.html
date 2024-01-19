@@ -6,9 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Box psycho_o</title>
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
+    <header class="header container">
+        <div class="left-container">
+            <div class="logo-container">
+                <img src="images/logo.svg" class="logo-container__logo" alt="Логотип сайта Music box">
+                <p class="logo-container__title">Music box</p>
+            </div>
+            <nav class="navigation">
+                <ul class="navigation-menu">
+                    <li class="navigation-menu__item">
+                        <a href="#" class="navigation-menu__link">Главная</a>
+                    </li>
+                    <li class="navigation-menu__item">
+                        <a href="#catalog" class="navigation-menu__link">Каталог</a>
+                    </li>
+                    <li class="navigation-menu__item">
+                        <a href="#artists" class="navigation-menu__link">Исполнители</a>
+                    </li>
+                    <li class="navigation-menu__item">
+                        <a href="#contacts" class="navigation-menu__link">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <input class="page-search" placeholder="Поиск...">
+    </header>
+    <main>
+        <section class="page-description container">
+            <article class="page-description-content">
+                <h1>Онлайн музыка где угодно</h1>
+                <h2>без ограничений</h2>
+                <p class="size-1 page-description-content__paragraph">Получите доступ всего за несколько шагов.
+                    Заполните форму
+                    ниже и
+                    откройте мир музыки
+                </p>
+                <form class="main-form">
+                    <div class="main-form-inputs">
+                        <input placeholder="Имя" class="main-form-inputs__input">
+                        <input placeholder="Email" class="main-form-inputs__input">
+                    </div>
+                    <button class="main-form__button" type="submit">Получить доступ</button>
+                </form>
+            </article>
+
+        </section>
+    </main>
 </body>
 
 </html>
